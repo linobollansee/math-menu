@@ -17,7 +17,7 @@ def option3():
 def main():
     while True:
         menu()
-        choice = input("Make your selection")
+        choice = input("Make your selection: \n")
 
         if choice == '1':
             option1()
